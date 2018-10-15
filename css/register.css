@@ -1,0 +1,251 @@
+/* 登录遮罩 */
+#login {
+	display: inline-block;
+	width: 50px;
+	height: 25px;
+	background: #ccc;
+	line-height: 25px;
+	text-align: center;
+}
+
+.content {
+	width: 100%;
+	height: 800px;
+	background: url(../image/timg.jpg);
+	background-size: 100% 100%;
+	min-width: 1200px;
+}
+
+.content .login {
+	width: 400px;
+	height: 400px;
+	background: #d5d4d9;
+	position: absolute;
+	top: 330px;
+	z-index: 1;
+	left: 40%;
+	border-radius: 10px;
+	display: none;
+}
+
+.content .login .login1,.content .login .register1 {
+	position: relative;
+	top: 50px;
+	left: 40px;
+	font-size: 20px;
+	width: 120px;
+	height: 40px;
+	background: #e85f4d;
+	display: inline-block;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.content .login .register1 {
+	margin-left: 80px;
+}
+
+.content .login h2 {
+	margin-left: 20px;
+	padding-top: 10px;
+	color: #fff;
+}
+
+.content .login .put {
+	padding: 10px 10px 10px 15px;
+	font-size: 18px;
+	margin: 10px 0px 0px 20px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.content .login form button {
+	width: 230px;
+	padding: 10px;
+	font-size: 18px;
+	margin: 30px 0px 0px 30px;
+	background: blue;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+#info {
+	font-size: 18px;
+	width: 100%;
+	display: block;
+	padding-left: 20px;
+}
+
+.login .span1 {
+	font-size: 20px;
+	color: #fff;
+}
+
+.login .span3,.login .span2 {
+	display: inline-block;
+	width: 80px;
+	font-size: 20px;
+	margin-left: 20px;
+	color: #fff;
+}
+
+.login .span3 {
+	letter-spacing: 5px;
+}
+
+.login .span2 {
+	letter-spacing: 12px;
+}
+
+.content .login .jzzh {
+	margin-left: 134px;
+	width: 20px;
+	height: 19px;
+	margin-top: 30px;
+	position: relative;
+	top: 3px;
+}
+
+.login .span4,.login .span5 {
+	font-size: 18px;
+	color: #fff;
+}
+
+.login .span5 a {
+	margin-left: 30px;
+	color: blue;
+}
+
+#bar {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #777;
+	opacity: 0.6;
+	z-index: 1;
+}
+
+#show {
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	border: none;
+	background: #fff;
+}
+/* 注册 */
+.register {
+	padding-top: 30px;
+	position: absolute;
+	right: 20%;
+	top: 250px;
+	background: #d5d4d9;
+	height: 550px;
+	border-radius: 10px;
+	width: 580px;
+}
+
+.register form {
+	padding: 0px 0px 0px 45px;
+}
+
+.register span {
+	display: inline-block;
+	width: 100px;
+	font-size: 18px;
+}
+
+.register span:first-of-type,.register .span2 {
+	letter-spacing: 6px;
+}
+
+.register .span1 {
+	letter-spacing: 10px;
+}
+
+.register input {
+	width: 350px;
+	height: 40px;
+	font-size: 16px;
+	padding-left: 15px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+.register button {
+	width: 290px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 110px;
+	background: #e85f4d;
+	font-size: 20px;
+	color: white;
+	border: 1px solid #e85f4d;
+	border-radius: 5px;
+	outline: none;
+}
+
+#getting {
+	display: inline-block;
+	width: 170px;
+	height: 40px;
+	background: #ccc;
+	line-height: 40px;
+	text-align: center;
+	color: #ff7101;
+	cursor: pointer;
+	padding-left: 0;
+}
+
+#code {
+	font-size: 24px;
+	position: relative;
+	top: 3px;
+	left: 20px;
+	margin-top: 10px;
+	margin-left: 90px;
+}
+
+.vali_pass_progress {
+	margin-top: 10px;
+	background-color: #efefef;
+	height: 10px;
+	border-radius: 5px;
+	width: 300px;
+	position: relative;
+	top: 5px;
+	left: 100px;
+}
+
+.vali_pass_inner_progress {
+	display: block;
+	height: 100%;
+	background-color: transparent;
+	border-radius: 5px;
+	width: 100%;
+}
+
+.error {
+	background-color: #ff3300;
+}
+
+.middle {
+	background-color: gold;
+}
+
+.strong {
+	background-color: green;
+}
+
+#psd,#psd2,#uidt,#verification,#span1 {
+	width: 370px;
+	display: block;
+	height: 0px;
+	padding-top: 2px;
+	padding-left: 105px;
+	font-size: 16px;
+	color: #fff;
+}

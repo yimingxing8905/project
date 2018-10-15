@@ -1,0 +1,238 @@
+#uls {
+	display: none;
+}
+
+.contenbox .shopping {
+	width: 1200px;
+	border: 1px solid #E7E7E7;
+	border-top-color: #ccc;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.shopping .img1 {
+	padding: 100px 0px 100px 300px;
+}
+
+.shopping .span1 {
+	font-size: 28px;
+	display: inline-block;
+	padding-top: 100px;
+	font-weight: bold
+}
+
+.shopping .span2 {
+	display: inline-block;
+	position: relative;
+	top: -175px;
+	left: 40%;
+	font-size: 18px;
+}
+
+.shopping span2 a {
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	background: #ff7101;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+.alltop .alllist {
+	border-bottom: 1px solid #ccc;
+}
+
+.alltop .alllist div {
+	display: inline-block;
+	height: 54px;
+	line-height: 54px;
+	color: #333;
+	font-size: 16px;
+}
+
+.alllist .checkall {
+	width: 143px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.alllist .checkall input {
+	width: 20px;
+	height: 19px;
+	position: relative;
+	top: 3px;
+	right: 25px;
+}
+
+.alllist .goods {
+	width: 310px;
+	text-align: left;
+	margin-left: 30px;
+}
+
+.alllist .price {
+	width: 168px;
+	text-align: left;
+}
+
+.alllist .num {
+	width: 158px;
+	text-align: center;
+}
+
+.alllist .money {
+	width: 268px;
+	text-align: center;
+}
+
+.alllist .operation {
+	width: 90px;
+	text-align: center;
+}
+
+.alltop .allshop {
+	height: 122px;
+	line-height: 122px;
+	font-size: 16px;
+	border-bottom: 1px solid #ccc;
+}
+
+.allshop div {
+	height: 122px;
+	display: inline-block;
+}
+
+.allshop .checkall {
+	width: 60px;
+	text-align: center;
+}
+
+.allshop .checkall input {
+	width: 20px;
+	height: 19px;
+}
+
+.allshop .tupian {
+	width: 90px;
+}
+
+.allshop .tupian img {
+	width: 80px;
+	height: 80px;
+	padding-top: 18px;
+}
+
+.allshop .goods {
+	width: 310px;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.allshop .price {
+	width: 168px;
+	text-align: left;
+}
+
+.allshop .num {
+	width: 158px;
+	text-align: center;
+}
+
+.allshop .num .btn1 {
+	width: 30px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	background: white;
+	border: 1px solid #ccc;
+	display: inline-block;
+}
+
+.allshop .num input {
+	width: 40px;
+	height: 26px;
+	position: relative;
+	left: -5px;
+	top: -1px;
+	text-align: center;
+	color: #222;
+	font-size: 14px;
+}
+
+.allshop .num  .btn2 {
+	width: 30px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	position: relative;
+	left: -10px;
+	background: white;
+	border: 1px solid #ccc;
+	display: inline-block;
+}
+
+.allshop .money {
+	width: 268px;
+	text-align: center;
+}
+
+.allshop .operation {
+	width: 90px;
+	text-align: center;
+}
+
+.allbom {
+	height: 60px;
+	background: #f5f5f5;
+	line-height: 60px;
+}
+
+.allbom div {
+	display: inline-block;
+}
+
+.allbom .checkall {
+	width: 143px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.allbom .checkall input {
+	width: 20px;
+	height: 19px;
+	position: relative;
+	top: 3px;
+	right: 25px;
+}
+
+.allbom .operation {
+	font-size: 16px;
+}
+
+.operation a:hover {
+	color: #ff7101;
+}
+
+.allbom .total {
+	font-size: 16px;
+	position: relative;
+	left: 45%;
+}
+
+.allbom .goods {
+	font-size: 16px;
+	position: relative;
+	left: 43%;
+}
+
+.allbom .settlement {
+	width: 140px;
+	background: #ff7101;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+}
+

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>51天天福利</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/list.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/ajax3.0.js"></script>
+</head>
+
+<body>
+	<!-- 注册登录 -->
+	<div class="top">
+		<div class="top_box public">
+			<div class="top_left fl">
+				<i class=bjimg></i>欢迎来到我要天天福利</div>
+			<div class="top_right fr">
+				<a href="login.html">登录</a>
+				<a href="register.html">免费注册</a>
+			</div>
+		</div>
+	</div>
+	<!-- 注册登录 -->
+	<!-- 头部logo 搜索 -->
+	<div class="header">
+		<div class="header_box public">
+			<div class="logo">
+				<a href="index.html">
+					<img src="image/logo.png" alt="">
+				</a>
+			</div>
+			<div class="search">
+				<form action="" method="POST">
+					<input type="text" name="goods" placeholder="商品搜索">
+					<button>
+						<i class="iocn"></i>搜索</button>
+				</form>
+				<ul class="clear">
+					<li>
+						<a href="list.html">创意</a>
+					</li>
+					<li>
+						<a href="list.html">礼物</a>
+					</li>
+					<li>
+						<a href="list.html">个性</a>
+					</li>
+					<li>
+						<a href="list.html">动漫</a>
+					</li>
+				</ul>
+			</div>
+			<div class="shopCart">
+				<a href="shopping.html">
+					<i class="ioc"></i>我的购物车
+					<span>(0)</span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- 头部logo 搜索 -->
+	<!-- 头部导航 -->
+	<div class="nav">
+		<div class="nav_box public">
+			<div class="allShopping fl">
+				<p id="all" class="allpng">
+					<i class="iocs"></i>全部商品</p>
+				<ul id="uls">
+					<li>
+						<p>
+							<a href="list" class="nav_a">
+								<i class="ionc ioc-1"></i>游戏外设</a>
+						</p>
+						<div class="sidebar">
+							<ul>
+								<li>
+									<a href="list.html">游戏外设</a>
+								</li>
+								<li>
+									<a href="list.html">游戏外设</a>
+								</li>
+								<li>
+									<a href="list.html">游戏外设</a>
+								</li>
+								<li>
+									<a href="list.html">游戏外设</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>
+							<a href="list" class="nav_a">
+								<i class="ionc ioc-2"></i>创意数码</a>
+						</p>
+						<div class="sidebar">
+							<ul>
+								<li>
+									<a href="list.html">创意数码</a>
+								</li>
+								<li>
+									<a href="list.html">创意数码</a>
+								</li>
+								<li>
+									<a href="list.html">创意数码</a>
+								</li>
+								<li>
+									<a href="list.html">创意数码</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>
+							<a href="list" class="nav_a">
+								<i class="ionc ioc-3"></i>创意礼品</a>
+						</p>
+						<div class="sidebar">
+							<ul>
+								<li>
+									<a href="list.html">创意礼品</a>
+								</li>
+								<li>
+									<a href="list.html">创意礼品</a>
+								</li>
+								<li>
+									<a href="list.html">创意礼品</a>
+								</li>
+								<li>
+									<a href="list.html">创意礼品</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>
+							<a href="list" class="nav_a">
+								<i class="ionc ioc-4"></i>创意家居</a>
+						</p>
+						<div class="sidebar">
+							<ul>
+								<li>
+									<a href="list.html">创意家居</a>
+								</li>
+								<li>
+									<a href="list.html">创意家居</a>
+								</li>
+								<li>
+									<a href="list.html">创意家居</a>
+								</li>
+								<li>
+									<a href="list.html">创意家居</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>
+							<a href="list" class="nav_a">
+								<i class="ionc ioc-5"></i>运动健身</a>
+						</p>
+						<div class="sidebar">
+							<ul>
+								<li>
+									<a href="list.html">运动健身</a>
+								</li>
+								<li>
+									<a href="list.html">运动健身</a>
+								</li>
+								<li>
+									<a href="list.html">运动健身</a>
+								</li>
+								<li>
+									<a href="list.html">运动健身</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>
+							<a href="list" class="nav_a">
+								<i class="ionc ioc-6"></i>家用电器</a>
+						</p>
+						<div class="sidebar">
+							<ul>
+								<li>
+									<a href="list.html">家用电器</a>
+								</li>
+								<li>
+									<a href="list.html">家用电器</a>
+								</li>
+								<li>
+									<a href="list.html">家用电器</a>
+								</li>
+								<li>
+									<a href="list.html">家用电器</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>
+							<a href="list" class="nav_a">
+								<i class="ionc ioc-7"></i>二次元世界</a>
+						</p>
+						<div class="sidebar">
+							<ul>
+								<li>
+									<a href="list.html">二次元世界</a>
+								</li>
+								<li>
+									<a href="list.html">二次元世界</a>
+								</li>
+								<li>
+									<a href="list.html">二次元世界</a>
+								</li>
+								<li>
+									<a href="list.html">二次元世界</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>
+							<a href="list" class="nav_a">
+								<i class="ionc ioc-8"></i>吃货集中营</a>
+						</p>
+						<div class="sidebar">
+							<ul>
+								<li>
+									<a href="list.html">吃货集中营</a>
+								</li>
+								<li>
+									<a href="list.html">吃货集中营</a>
+								</li>
+								<li>
+									<a href="list.html">吃货集中营</a>
+								</li>
+								<li>
+									<a href="list.html">吃货集中营</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="navList fl">
+				<ul>
+					<li>
+						<a href="list.html">首页</a>
+					</li>
+					<li>
+						<a href="list.html">游戏外设</a>
+					</li>
+					<li>
+						<a href="list.html">创意数码</a>
+					</li>
+					<li>
+						<a href="list.html">VR-虚拟现实</a>
+					</li>
+					<li>
+						<a href="" style="color: red">
+							<span>9块9</span>&nbsp;包邮专区</a>
+					</li>
+				</ul>
+			</div>
+			<div class="phone fr">
+				<p class="p1">021-123456789</p>
+				<div>周一到周五09:00~18:00</div>
+			</div>
+		</div>
+	</div>
+	<!-- 头部导航 -->
+	<div class="content">
+		<div class="contentbox public">
+			<div class="search">当前位置：
+				<a href="index.html">首页</a>>
+				<a href="details.html">运动健身</a>
+			</div>
+			<div class="filter">
+				<ul>
+					<li>
+						<span>分类：</span>
+						<a href="details.html">运动服饰</a>
+						<a href="details.html">健身器械</a>
+					</li>
+					<li>
+						<span>排序：</span>
+						<a href="details.html">默认</a>
+						<a href="details.html">最新</a>
+						<a href="details.html">价格</a>
+						<b>&darr;</b>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="main">
+		<div class="mainbox public">
+			<ul class="list" id="list">
+				<li class="list-item">
+					<a href="details.html">
+						<img src="image/goods/1426_P_1509651517273.jpg" alt="">
+					</a>
+					<div class="cont">
+						<a href="details.html">
+							<span>宏定义机械电竞游戏...</span>
+							<span>￥69.00</span>
+						</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="details.html">
+						<img src="image/list/6.jpg" alt="">
+					</a>
+					<div class="cont">
+						<a href="details.html">
+							<span>家用腹肌训练瘦腰器 人...</span>
+							<span>￥53.00</span>
+						</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="details.html">
+						<img src="image/list/16.jpg" alt="">
+					</a>
+					<div class="cont">
+						<a href="details.html">
+							<span>家用腹肌训练瘦腰器 人...</span>
+							<span>￥58.00</span>
+						</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="details.html">
+						<img src="image/list/26.jpg" alt="">
+					</a>
+					<div class="cont">
+						<a href="details.html">
+							<span>家用腹肌训练瘦腰器 人...</span>
+							<span>￥35.00</span>
+						</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="details.html">
+						<img src="image/list/36.jpg" alt="">
+					</a>
+					<div class="cont">
+						<a href="details.html">
+							<span>家用腹肌训练瘦腰器 人...</span>
+							<span>￥134.00</span>
+						</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="details.html">
+						<img src="image/list/46.jpg" alt="">
+					</a>
+					<div class="cont">
+						<a href="details.html">
+							<span>家用腹肌训练瘦腰器 人...</span>
+							<span>￥95.00</span>
+						</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="details.html">
+						<img src="image/list/56.jpg" alt="">
+					</a>
+					<div class="cont">
+						<a href="details.html">
+							<span>家用腹肌训练瘦腰器 人...</span>
+							<span>￥67.00</span>
+						</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="details.html">
+						<img src="image/list/76.jpg" alt="">
+					</a>
+					<div class="cont">
+						<a href="details.html">
+							<span>家用腹肌训练瘦腰器 人...</span>
+							<span>￥37.00</span>
+						</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="details.html">
+						<img src="image/list/86.jpg" alt="">
+					</a>
+					<div class="cont">
+						<a href="details.html">
+							<span>家用腹肌训练瘦腰器 人...</span>
+							<span>￥107.00</span>
+						</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="details.html">
+						<img src="image/list/98.jpg" alt="">
+					</a>
+					<div class="cont">
+						<a href="details.html">
+							<span>家用腹肌训练瘦腰器 人...</span>
+							<span>￥235.00</span>
+						</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="details.html">
+						<img src="image/list/11.jpg" alt="">
+					</a>
+					<div class="cont">
+						<a href="details.html">
+							<span>家用腹肌训练瘦腰器 人...</span>
+							<span>￥169.00</span>
+						</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="details.html">
+						<img src="image/list/21.jpg" alt="">
+					</a>
+					<div class="cont">
+						<a href="details.html">
+							<span>家用腹肌训练瘦腰器 人...</span>
+							<span>￥45.00</span>
+						</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="details.html">
+						<img src="image/list/31.jpg" alt="">
+					</a>
+					<div class="cont">
+						<a href="details.html">
+							<span>家用腹肌训练瘦腰器 人...</span>
+							<span>￥63.00</span>
+						</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="details.html">
+						<img src="image/list/41.jpg" alt="">
+					</a>
+					<div class="cont">
+						<a href="details.html">
+							<span>家用腹肌训练瘦腰器 人...</span>
+							<span>￥60.00</span>
+						</a>
+					</div>
+				</li>
+				<li class="list-item">
+					<a href="details.html">
+						<img src="image/list/51.jpg" alt="">
+					</a>
+					<div class="cont">
+						<a href="details.html">
+							<span>家用腹肌训练瘦腰器 人...</span>
+							<span>￥19.00</span>
+						</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- <div class="conert"></div>
+<div class="conert"></div> -->
+	<!-- 底部区域 -->
+	<div class="footer">
+		<div class="footerbox public">
+			<div class="ftop">
+				<div class="fleft fl">
+					<img src="image/footer.png" alt="">
+				</div>
+				<div class="fright fl">
+					<img src="image/gzh.jpg" alt="">
+				</div>
+			</div>
+			<div class="fbom clear">
+				<div class="fbomt">
+					<a href="">公司简介</a>
+					<a href="">免责条款</a>
+					<a href="">隐私保护</a>
+					<a href="">常见问题</a>
+					<a href="">联系我们</a>
+				</div>
+				<div class="fbomb">
+					Copyright ©2016 深圳市智盈优创网络科技有限公司51ttfl.com All Rights Reseryved
+					<a href="http://www.miibeian.gov.cn">粤ICP备16046348号-1 </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 底部区域 -->
+	<script src="js/list.js"></script>
+</body>
+
+</html>

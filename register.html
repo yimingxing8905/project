@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>51天天福利</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/ajax3.0.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+</head>
+
+<body>
+    <!-- 注册登录 -->
+    <div class="top">
+        <div class="top_box public">
+            <div class="top_left fl">
+                <i class=bjimg></i>欢迎来到我要天天福利</div>
+            <div class="top_right fr">
+                <span>我已注册,现在就</span>
+                <a href="#" id="login">登录</a>
+            </div>
+        </div>
+    </div>
+    <!-- 头部logo 搜索 -->
+    <div class="header">
+        <div class="header_box public">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="image/logo.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 头部logo 搜索 -->
+    <div id="bar"></div>
+    <div class="content">
+        <!-- 免费注册 -->
+        <div class="register public">
+            <form>
+                <span>用户名：</span>
+                <input type="text" name="uname" id="uname" onblur="checkUname()" maxlength="12" placeholder="请设置用户名">
+                <span id="span1">用户名要求6～20个字符,可使用字母,数字,下划线</span>
+                <br>
+
+                <span class="span1">密&nbsp;码：</span>
+                <input type="password" name="pwd" id="pwd" placeholder="请设置密码" onkeyup="checkPass()">
+                <span id="psd">字母,数字,特殊符号,区分字母大小写,长度在8-20位</span>
+                <br>
+
+                <span>确认密码：</span>
+                <input type="password" name="pwd2" id="pwd2" placeholder="请确认密码" required="true" onkeyup="validate()">
+                <span id="psd2">请再输入一次密码</span>
+                <br>
+
+                <span class="span2">手机号：</span>
+                <input type="text" name="phone" placeholder="请填写手机号" id="uid" onblur="checkPhone()" maxlength="11">
+                <span id="uidt">请输入11位有效的手机号码</span>
+                <br>
+                <div class="captcha-box">
+                    <span class="span2">验证码：</span>
+                    <input type="text" name="" id="userYzm" placeholder="请输入验证码">
+                    <span id="verification">请填写验证码</span>
+                    <br>
+                    <span id="code"></span>
+                    <input type="button" id="getting" value="获取验证码" onclick="ShengCheng()">
+                </div>
+                <br>
+                <button type="button" onclick="checkYzm()">注册</button>
+            </form>
+        </div>
+        <!-- 免费注册 -->
+        <!-- 密码登录 -->
+        <div class="login">
+            <h2>密码登录</h2>
+            <button id="show">X</button>
+            <form action="" method="POST">
+                <span id="info"></span>
+                <span class="span3">用户名</span>
+                <span class="span1">:</span>
+                <input type="text" name="uname" id="username" placeholder="手机/邮箱/用户名" class="put">
+                <br>
+                <br>
+                <span class="span2">密&nbsp;码</span>
+                <span class="span1">:</span>
+                <input type="password" name="" id="" placeholder="密码" class="put">
+                <br>
+                <input type="checkbox" name="" class="jzzh">
+                <span class="span4">记住账号</span>
+                <span class="span5">
+                    <a href="#">忘记密码?</a>
+                </span>
+            </form>
+            <a href="#" class="login1">登录</a>
+            <a href="register.html" class="register1">注册</a>
+        </div>
+    </div>
+    <!-- 密码登录 -->
+    <!-- 底部区域 -->
+    <div class="footer">
+        <div class="footerbox public">
+            <div class="ftop">
+                <div class="fleft fl">
+                    <img src="image/footer.png" alt="">
+                </div>
+                <div class="fright fl">
+                    <img src="image/gzh.jpg" alt="">
+                </div>
+            </div>
+            <div class="fbom clear">
+                <div class="fbomt">
+                    <a href="">公司简介</a>
+                    <a href="">免责条款</a>
+                    <a href="">隐私保护</a>
+                    <a href="">常见问题</a>
+                    <a href="">联系我们</a>
+                </div>
+                <div class="fbomb">
+                    Copyright ©2016 深圳市智盈优创网络科技有限公司51ttfl.com All Rights Reseryved
+                    <a href="http://www.miibeian.gov.cn">粤ICP备16046348号-1 </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部区域 -->
+    <script src="js/register.js"></script>
+</body>
+
+</html>

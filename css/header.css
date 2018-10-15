@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* 共有样式 */
+.public {
+	margin: 0 auto;
+	width: 1200px;
+}
+/*注册登录*/
+.top {
+	background: #f5f5f5;
+	height: 36px;
+	min-width: 1200px;
+}
+
+.top .top_box {
+	height: 36px;
+	line-height: 36px;
+	margin: 0 auto;
+}
+
+.top .top_left {
+	color: #8f8f8f;
+	line-height: 36px;
+}
+
+.top .top_left .bjimg {
+	width: 26px;
+	height: 24px;
+	display: inline-block;
+	background: url(../image/small_top.png);
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.top .top_box .top_right a {
+	display: inline-block;
+	width: 60px;
+}
+
+.top .top_box .top_right a:hover {
+	color: #ff7101;
+}
+/* 头部logo 搜索 */
+.header {
+	min-width: 1200px;
+}
+
+.header .header_box {
+	height: 115px;
+	position: relative;
+}
+
+.header .header_box .logo {
+	position: absolute;
+	left: 20px;
+	top: 40px;
+}
+
+.header .header_box .search {
+	width: 560px;
+	position: absolute;
+	top: 26px;
+	left: 390px;
+}
+
+.header .header_box .search input {
+	width: 427px;
+	height: 36px;
+	border: 3px solid #ff7101;
+	border-radius: 10px 0px 0px 10px;
+	font-size: 16px;
+	padding: 0px 0px 0px 10px;
+}
+
+.header .header_box .search button {
+	width: 116px;
+	height: 42px;
+	border: 0;
+	background: #ff7101;
+	font-size: 16px;
+	color: white;
+	margin-left: -6px;
+	border-radius: 0px 10px 10px 0px;
+	position: absolute;
+	cursor: pointer;
+}
+
+.header .header_box .search .iocn {
+	background: url(../image/ico.png) no-repeat -3px -3px;
+	display: inline-block;
+	width: 22px;
+	height: 20px;
+	position: relative;
+	top: 5px;
+	right: 10px;
+}
+
+.header .header_box .clear {
+	margin-top: 15px;
+}
+
+.header .header_box .clear li {
+	float: left;
+	width: 50px;
+}
+
+.header .header_box .clear a:hover {
+	color: #ff7101;
+}
+
+.header .header_box .shopCart {
+	width: 200px;
+	border: 1px solid #ddd;
+	height: 40px;
+	position: absolute;
+	top: 26px;
+	right: 0;
+	background: #f9f9f9;
+	border-radius: 10px;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.header .header_box .shopCart .ioc {
+	width: 30px;
+	height: 19px;
+	display: inline-block;
+	background: url(../image/ico.png) no-repeat -45px -3px;
+	margin: -3px 10px;
+}
+
+.header .header_box .shopCart a:hover {
+	color: #ff7101;
+}
+
+.header .header_box .shopCart span {
+	display: inline-block;
+	margin: 0px 5px;
+}
+/* 头部导航 */
+.nav {
+	border-bottom: 2px solid #ff7101;
+	min-width: 1200px;
+}
+
+.nav .nav_box {
+	height: 40px;
+}
+
+.nav .nav_box .allShopping {
+	width: 210px;
+	height: 40px;
+	background: #ff7101;
+}
+
+.nav .nav_box .allShopping .allpng {
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.nav .nav_box .allShopping p {
+	z-index: 2;
+	width: 208px;
+}
+
+.nav .nav_box .allShopping .nav_a {
+	display: block;
+	width: 208px;
+	height: 56px;
+	position: relative;
+}
+
+.nav .nav_box .allShopping .iocs {
+	width: 14px;
+	height: 12px;
+	background: url(../image/ico.png) no-repeat -76px -3px;
+	display: inline-block;
+	position: relative;
+	top: 0;
+	left: -20px;
+}
+
+.nav .nav_box .allShopping div {
+	display: none;
+}
+
+.nav .nav_box .allShopping .ionc {
+	width: 25px;
+	height: 21px;
+	display: inline-block;
+	background: url(../image/ico-nav.png) no-repeat;
+	vertical-align: middle;
+	margin: 3px 16px 0 30px;
+}
+
+.nav .nav_box .allShopping li {
+	height: 56px;
+	line-height: 56px;
+	font-size: 18px;
+}
+
+.nav .nav_box .allShopping ul {
+	height: 457px;
+	position: relative;
+	background: white;
+	z-index: 1;
+}
+
+.nav .nav_box .allShopping .ioc-2 {
+	background-position: 0px -28px;
+}
+
+.nav .nav_box .allShopping .ioc-3 {
+	background-position: 0px -60px;
+}
+
+.nav .nav_box .allShopping .ioc-4 {
+	background-position: 0px -90px;
+}
+
+.nav .nav_box .allShopping .ioc-5 {
+	background-position: 0px -123px;
+}
+
+.nav .nav_box .allShopping .ioc-6 {
+	background-position: 0px -156px;
+}
+
+.nav .nav_box .allShopping .ioc-7 {
+	background-position: 0px -187px;
+}
+
+.nav .nav_box .allShopping .ioc-8 {
+	background-position: 0px -218px;
+}
+
+.nav .nav_box .allShopping .sidebar {
+	position: absolute;
+	left: 210px;
+	width: 300px;
+	top: 0px;
+	height: 457px;
+	background: white;
+	z-index: -1;
+}
+
+.nav .nav_box .allShopping .sidebar ul li {
+	float: left;
+	margin: 10px 20px;
+	border: 1px solid #ccc;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+.nav .nav_box .navList {
+	margin-left: 30px;
+}
+
+.nav .nav_box .navList li {
+	float: left;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+.nav .nav_box .navList li a:hover {
+	color: #ff7101;
+}
+
+.nav .nav_box .navList li span {
+	font-size: 20px;
+}
+
+.nav .nav_box .phone {
+	position: relative;
+	top: -10px;
+}
+
+.nav .nav_box .phone .p1 {
+	font-size: 20px;
+	color: #ff7101;
+}

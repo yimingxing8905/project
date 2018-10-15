@@ -1,0 +1,212 @@
+/* 轮播图 */
+#main {
+	width: 100%;
+	height: 454px;
+	position: relative;
+	top: -3px;
+	min-width: 1200px;
+}
+
+#box img {
+	width: 100%;
+	height: 454px;
+}
+
+#box li {
+	display: none;
+}
+
+#box .active {
+	display: block;
+}
+
+#num {
+	width: 300px;
+	height: 60px;
+	position: absolute;
+	margin-left: 45%;
+	bottom: 0;
+	opacity: 0.9;
+	border-radius: 10px;
+}
+
+#num li {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border: 1px solid white;
+	border-radius: 50%;
+	margin: 0px 10px;
+	background: #ccc;
+	cursor: pointer;
+}
+
+#num .active_num {
+	background: orangered;
+}
+
+#left,#right {
+	width: 30px;
+	height: 70px;
+	background: black;
+	opacity: 0.5;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	line-height: 70px;
+	position: absolute;
+	top: 185px;
+	display: none;
+	cursor: pointer;
+}
+
+#left {
+	left: 0;
+}
+
+#right {
+	right: 0;
+}
+/* 内容区 */
+.conent {
+	background: #f5f5f5;
+	width: 100%;
+	overflow: hidden;
+	min-width: 1200px;
+}
+
+.conert {
+	background: #f5f5f5;
+	width: 100%;
+	height: 50px;
+	min-width: 1200px;
+}
+
+.conentBox .product {
+	padding-top: 30px;
+	height: 630px;
+}
+
+.conentBox .product .productTop {
+	border-left: 5px solid #ff7101;
+	padding-left: 10px;
+}
+
+.productTop .item {
+	font-size: 20px;
+	color: #000;
+}
+
+.productTop .item span {
+	font-size: 16px;
+	color: #ccc;
+}
+
+.productTop .item a {
+	float: right;
+	position: relative;
+	right: 0;
+	font-size: 16px;
+}
+
+.product .productBom {
+	padding-top: 20px;
+}
+
+.productBom .pro_left_bom {
+	margin-top: 10px;
+}
+
+.product .productBom .product_left {
+	width: 238px;
+	float: left;
+	margin-right: 10px;
+}
+
+.product .productBom .product_con {
+	height: 580px;
+	width: 711px;
+	float: left;
+}
+
+.product .productBom .product_con ul li {
+	float: left;
+	width: 230px;
+	height: 290px;
+	background: white;
+	border-right: 1px solid #efefef;
+	border-top: 1px solid #efefef;
+	text-align: center;
+}
+
+.product .productBom .product_con ul li img {
+	width: 180px;
+}
+
+.product .productBom .product_con ul li p {
+	line-height: 30px;
+}
+
+p:first-of-type {
+	color: #000;
+	font-size: 16px;
+}
+
+p:last-of-type {
+	color: #ff7101;
+	font-size: 16px;
+}
+
+.product .productBom .product_right {
+	float: right;
+	width: 240px;
+	background: white;
+}
+
+.product_right ul li:hover {
+	background: rgb(236, 235, 235);
+}
+
+.product_right ul li a {
+	display: block;
+	width: 220px;
+	border-bottom: 1px solid #ccc;
+	margin-left: 10px;
+	font-size: 12px;
+	padding: 20px 0px 21px 0px;
+}
+
+.product_right h3 {
+	margin-left: 20px;
+	color: #ff7101;
+}
+
+.product_right ul li img {
+	width: 80px;
+	float: left;
+	display: block;
+	padding: 10px;
+}
+
+.product_right ul li p {
+	line-height: 30px;
+}
+/* 楼层 */
+.floors {
+	position: fixed;
+	top: 20%;
+	left: 50%;
+	display: none;
+	margin-left: -700px;
+}
+
+.floors ul li {
+	width: 100px;
+	height: 30px;
+	;color: #fff;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	border-bottom: #000;
+}
+

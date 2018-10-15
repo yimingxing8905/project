@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>51天天福利</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/details.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+</head>
+
+<body>
+	<!-- 注册登录 -->
+	<div class="top">
+		<div class="top_box public">
+			<div class="top_left fl">
+				<i class=bjimg></i>欢迎来到我要天天福利</div>
+			<div class="top_right fr">
+				<a href="login.html">登录</a>
+				<a href="register.html">免费注册</a>
+			</div>
+		</div>
+	</div>
+	<!-- 注册登录 -->
+	<!-- 头部logo 搜索 -->
+	<div class="header">
+		<div class="header_box public">
+			<div class="logo">
+				<a href="index.html">
+					<img src="image/logo.png" alt="">
+				</a>
+			</div>
+			<div class="search">
+				<form action="" method="POST">
+					<input type="text" name="goods" placeholder="商品搜索">
+					<button>
+						<i class="iocn"></i>搜索</button>
+				</form>
+				<ul class="clear">
+					<li>
+						<a href="list.html">创意</a>
+					</li>
+					<li>
+						<a href="list.html">礼物</a>
+					</li>
+					<li>
+						<a href="list.html">个性</a>
+					</li>
+					<li>
+						<a href="list.html">动漫</a>
+					</li>
+				</ul>
+			</div>
+			<div class="shopCart" id="shopCart">
+				<a href="shopping.html">
+					<i class="ioc"></i>我的购物车(
+					<span>0</span>)</a>
+			</div>
+		</div>
+	</div>
+	<!-- 头部logo 搜索 -->
+	<!-- 头部导航 -->
+	<div class="nav">
+		<div class="nav_box public">
+			<div class="allShopping fl">
+				<p id="all" class="allpng">
+					<i class="iocs"></i>全部商品</p>
+				<ul class="uls" id="uls">
+					<li>
+						<p>
+							<a href="list.html" class="nav_a">
+								<i class="ionc ioc-1"></i>游戏外设</a>
+						</p>
+						<div class="sidebar">
+							<ul>
+								<li>
+									<a href="list.html">游戏外设</a>
+								</li>
+								<li>
+									<a href="list.html">游戏外设</a>
+								</li>
+								<li>
+									<a href="list.html">游戏外设</a>
+								</li>
+								<li>
+									<a href="list.html">游戏外设</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>
+							<a href="list.html" class="nav_a">
+								<i class="ionc ioc-2"></i>创意数码</a>
+						</p>
+						<div class="sidebar">
+							<ul>
+								<li>
+									<a href="list.html">创意数码</a>
+								</li>
+								<li>
+									<a href="list.html">创意数码</a>
+								</li>
+								<li>
+									<a href="list.html">创意数码</a>
+								</li>
+								<li>
+									<a href="list.html">创意数码</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>
+							<a href="list.html" class="nav_a">
+								<i class="ionc ioc-3"></i>创意礼品</a>
+						</p>
+						<div class="sidebar">
+							<ul>
+								<li>
+									<a href="list.html">创意礼品</a>
+								</li>
+								<li>
+									<a href="list.html">创意礼品</a>
+								</li>
+								<li>
+									<a href="list.html">创意礼品</a>
+								</li>
+								<li>
+									<a href="list.html">创意礼品</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>
+							<a href="list.html" class="nav_a">
+								<i class="ionc ioc-4"></i>创意家居</a>
+						</p>
+						<div class="sidebar">
+							<ul>
+								<li>
+									<a href="list.html">创意家居</a>
+								</li>
+								<li>
+									<a href="list.html">创意家居</a>
+								</li>
+								<li>
+									<a href="list.html">创意家居</a>
+								</li>
+								<li>
+									<a href="list.html">创意家居</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>
+							<a href="list.html" class="nav_a">
+								<i class="ionc ioc-5"></i>运动健身</a>
+						</p>
+						<div class="sidebar">
+							<ul>
+								<li>
+									<a href="list.html">运动健身</a>
+								</li>
+								<li>
+									<a href="list.html">运动健身</a>
+								</li>
+								<li>
+									<a href="list.html">运动健身</a>
+								</li>
+								<li>
+									<a href="list.html">运动健身</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>
+							<a href="list.html" class="nav_a">
+								<i class="ionc ioc-6"></i>家用电器</a>
+						</p>
+						<div class="sidebar">
+							<ul>
+								<li>
+									<a href="list.html">家用电器</a>
+								</li>
+								<li>
+									<a href="list.html">家用电器</a>
+								</li>
+								<li>
+									<a href="list.html">家用电器</a>
+								</li>
+								<li>
+									<a href="list.html">家用电器</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>
+							<a href="list.html" class="nav_a">
+								<i class="ionc ioc-7"></i>二次元世界</a>
+						</p>
+						<div class="sidebar">
+							<ul>
+								<li>
+									<a href="list.html">二次元世界</a>
+								</li>
+								<li>
+									<a href="list.html">二次元世界</a>
+								</li>
+								<li>
+									<a href="list.html">二次元世界</a>
+								</li>
+								<li>
+									<a href="list.html">二次元世界</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>
+							<a href="list.html" class="nav_a">
+								<i class="ionc ioc-8"></i>吃货集中营</a>
+						</p>
+						<div class="sidebar">
+							<ul>
+								<li>
+									<a href="list.html">吃货集中营</a>
+								</li>
+								<li>
+									<a href="list.html">吃货集中营</a>
+								</li>
+								<li>
+									<a href="list.html">吃货集中营</a>
+								</li>
+								<li>
+									<a href="list.html">吃货集中营</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="navList fl">
+				<ul>
+					<li>
+						<a href="list.html">首页</a>
+					</li>
+					<li>
+						<a href="list.html">游戏外设</a>
+					</li>
+					<li>
+						<a href="list.html">创意数码</a>
+					</li>
+					<li>
+						<a href="list.html">VR-虚拟现实</a>
+					</li>
+					<li>
+						<a href="" style="color: red">
+							<span>9块9</span>&nbsp;包邮专区</a>
+					</li>
+				</ul>
+			</div>
+			<div class="phone fr">
+				<p class="p1">021-123456789</p>
+				<div>周一到周五09:00~18:00</div>
+			</div>
+		</div>
+	</div>
+	<!-- 头部导航 -->
+	<div class="conten">
+		<div class="contenbox public">
+			<!-- 放大镜 -->
+			<div class="contenleft">
+				<div class="maincon">
+					<div class="small" id="small">
+						<img src="image/goods/1426_P_1509651517273.jpg" alt="" id="img1">
+						<div id="move"></div>
+					</div>
+					<div id="big">
+						<img src="image/goods/1426_P_1509651517273.jpg" alt="" id="img2">
+					</div>
+				</div>
+				<ul id="ul">
+					<li>
+						<img src="image/goods/1426_P_1509651517273.jpg" alt="">
+					</li>
+					<li>
+						<img src="image/goods/1485_P_1515369458680.jpg" alt="">
+					</li>
+					<li>
+						<img src="image/goods/1499_thumb_P_1518128457276.jpg" alt="">
+					</li>
+					<li>
+						<img src="image/goods/1499_thumb_P_1518128505859.jpg" alt="">
+					</li>
+					<li>
+						<img src="image/goods/1523_P_1523155118504.jpg" alt="">
+					</li>
+				</ul>
+			</div>
+			<!-- 放大镜 -->
+			<div class="contencon">
+				<h3>宏定义机械电竞游戏有线鼠标</h3>
+				<form action="" method="">
+					<div class="price">
+						<span class="span1">福利价:</span>
+						<span>￥69.00</span>
+						<span class="span2">￥82.80</span>
+						<span>包邮</span>
+						<span class="span3">累计销量</span>
+						<span>1128</span>
+					</div>
+					<div class="total">
+						<span class="span1">兑换价:</span>
+						<span>￥29.90</span>
+						<span>使用优惠劵后可享受此兑换价格</span>
+					</div>
+					<div class="freight">
+						<span>运&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;费:</span>
+						<span class="span1">
+							<a href="">深圳到北京∨</a>
+						</span>
+						<span>快递:</span>
+						<span>1.00</span>
+					</div>
+					<div class="number">
+						<span>数&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;量:</span>
+						<a href="javascript:;" class="btn1" id="btn1">-</a>
+						<input type="text" value="1" id="input">
+						<a href="javascript:;" class="btn2" id="btn2">+</a>
+						<span>库存量
+							<span>5623</span>件</span>
+					</div>
+					<div class="pay">
+						<span>支&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;付:</span>
+						<span class="span1">
+							<i class="payioc1"></i>支付宝支付</span>
+						<span>
+							<i class="payioc2"></i>微信支付</span>
+					</div>
+					<div class="service">
+						<span class="span1">服务承诺:</span>
+						<span>正品保证</span>
+						<span>极速退款</span>
+						<span>48小时发货</span>
+					</div>
+					<a href="javascript:void(0);" class="buy" id="buy">立即购买</a>
+					<a href="javascript:void(0);" class="join" id="join">加入购物车</a>
+				</form>
+				<div class="login_1" id="login_1">
+					请先登录
+				</div>
+			</div>
+
+			<div class="contenright fr">
+				<h3>
+					<i class="hotico"></i>热销排行</h3>
+				<ul>
+					<li>
+						<a href="">
+							<img src="image/goods/1426_P_1509651517273.jpg" alt="">
+							<span>电竞游戏有线鼠标</span>
+							<span>￥29.00</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="bar"></div>
+	<!-- 密码登录 -->
+	<div class="contents1" id="contents1">
+		<div class="login">
+			<h2>密码登录</h2>
+			<button id="show">X</button>
+			<form action="" method="POST">
+				<span id="info"></span>
+				<span class="span3">用户名</span>
+				<span class="span1">:</span>
+				<input type="text" name="uname" id="username" placeholder="手机/邮箱/用户名" class="put">
+				<br>
+				<br>
+				<span class="span2">密&nbsp;码</span>
+				<span class="span1">:</span>
+				<input type="password" name="" id="" placeholder="密码" class="put">
+				<br>
+				<input type="checkbox" name="" class="jzzh">
+				<span class="span4">记住账号</span>
+				<span class="span5">
+					<a href="#">忘记密码?</a>
+				</span>
+			</form>
+			<a href="#" class="login1">登录</a>
+			<a href="register.html" class="register1">注册</a>
+		</div>
+	</div>
+	<!-- 密码登录 -->
+	<!-- 商品详情 -->
+	<div class="details">
+		<div class="detailsbox public">
+			<div class="detailsleft fl">
+				<h3>热销排行</h3>
+				<ul>
+					<li>
+						<a href="">
+							<img src="image/goods/1426_P_1509651517273.jpg" alt="">
+							<span>电竞游戏有线鼠标</span>
+							<span>￥29.00</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="detailsright fl">
+				<div class="drt" id="drt">
+					<span class="active">商品详情</span>
+					<span>用户评论（3）</span>
+					<span>售后服务</span>
+				</div>
+				<div class="contents">
+					<div id="conts1" style="display: block;">
+						<img src="image/details/1514506527606011826.gif" alt="">
+						<img src="image/details/20180315021212_70926.jpg" alt="">
+						<img src="image/details/20180315021212_96209.jpg" alt="">
+						<img src="image/details/20180315021213_58913.jpg" alt="">
+						<img src="image/details/20180315021213_54112.jpg" alt="">
+						<img src="image/details/20180315021212_70927.png" alt="">
+						<img src="image/details/20180315021212_70928.png" alt="">
+						<img src="image/details/20180315021213_42091.jpg" alt="">
+						<img src="image/details/20180315021213_34601.jpg" alt="">
+						<img src="image/details/20180315021213_81752.jpg" alt="">
+						<img src="image/details/20180315021214_60058.jpg" alt="">
+					</div>
+					<div id="conts2">
+						<div class="contop">
+							<a href="javascript:;">
+								<i class="active"></i>&nbsp;&nbsp;&nbsp;&nbsp;全部</a>
+							<a href="javascript:;">
+								<i></i>&nbsp;&nbsp;&nbsp;&nbsp;图片
+								<span>(0)</span>
+							</a>
+						</div>
+						<div class="comments">
+							<ul>
+								<li>
+									<div class="evaluation fl">
+										<span class="star"></span>
+										<span class="star"></span>
+										<span class="star"></span>
+										<span class="star"></span>
+										<span class="star"></span>
+										<span>2018-06-18</span>
+									</div>
+									<div class="eval fl">
+										<span>非常棒！完全符合</span>
+									</div>
+									<div class="evalright fr">
+										<img class="portrait" src="image/details/noavatar_middle.gif" alt="">
+										<span class="username">hasvdfccki</span>
+									</div>
+								</li>
+								<li>
+									<div class="evaluation fl">
+										<span class="star"></span>
+										<span class="star"></span>
+										<span class="star"></span>
+										<span class="star"></span>
+										<span class="star"></span>
+										<span>2018-06-18</span>
+									</div>
+									<div class="eval fl">
+										<span>非常棒！完全符合</span>
+									</div>
+									<div class="evalright fr">
+										<img class="portrait" src="image/details/noavatar_middle.gif" alt="">
+										<span class="username">hasvdfccki</span>
+									</div>
+								</li>
+								<li>
+									<div class="evaluation fl">
+										<span class="star"></span>
+										<span class="star"></span>
+										<span class="star"></span>
+										<span class="star"></span>
+										<span class="star"></span>
+										<span>2018-06-18</span>
+									</div>
+									<div class="eval fl">
+										<span>非常棒！完全符合</span>
+									</div>
+									<div class="evalright fr">
+										<img class="portrait" src="image/details/noavatar_middle.gif" alt="">
+										<span class="username">hasvdfccki</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div id="conts3">
+						<p>如何挑选商品？</p>
+						<p>点击页面上方“加入购物车”按钮或页面下拉时顶部导航上的“加入购物车”按钮将商品加入购物车，再点击页面右上角的“购物车”前往购物车页面进行结算。</p>
+						<p>收藏商品功能</p>
+						<p>点击“收藏按钮”后，按钮中的白心亮起,背景由黑色变为黄色代表收藏成功，再次点击取消收藏。您可在“个人中心”中的我的收藏查看所有收藏商品。</p>
+						<p>退换货办理流程</p>
+						<p>您可客服人员沟通，作人员与您进行退换货质量确认并办理相关事宜。无理由退换货需买家承担运费，请谨慎购买！</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 商品详情 -->
+	<!-- 底部区域 -->
+	<div class="footer" style="position: relative;">
+		<div class="footerbox public">
+			<div class="ftop">
+				<div class="fleft fl">
+					<img src="image/footer.png" alt="">
+				</div>
+				<div class="fright fl">
+					<img src="image/gzh.jpg" alt="">
+				</div>
+			</div>
+			<div class="fbom clear">
+				<div class="fbomt">
+					<a href="">公司简介</a>
+					<a href="">免责条款</a>
+					<a href="">隐私保护</a>
+					<a href="">常见问题</a>
+					<a href="">联系我们</a>
+				</div>
+				<div class="fbomb">
+					Copyright ©2016 深圳市智盈优创网络科技有限公司51ttfl.com All Rights Reseryved
+					<a href="">粤ICP备16046348号-1 </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 底部区域 -->
+	<script src="js/details.js"></script>
+</body>
+
+</html>

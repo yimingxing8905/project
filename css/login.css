@@ -1,0 +1,109 @@
+.content {
+	width: 100%;
+	height: 776px;
+	background: url(../image/timg.jpg);
+	background-size: 100% 100%;
+	min-width: 1200px;
+}
+
+.content .login {
+	width: 400px;
+	height: 360px;
+	background: #d5d4d9;
+	position: absolute;
+	top: 350px;
+	z-index: 1;
+	left: 55%;
+	border-radius: 10px;
+}
+
+.content .login .login1,.content .login .register {
+	position: relative;
+	top: 50px;
+	left: 40px;
+	font-size: 20px;
+	width: 120px;
+	height: 40px;
+	background: #e85f4d;
+	display: inline-block;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.content .login .register {
+	margin-left: 80px;
+}
+
+.content .login h2 {
+	margin-left: 20px;
+	padding-top: 10px;
+	color: #fff;
+}
+
+.content .login .put {
+	padding: 10px 10px 10px 15px;
+	font-size: 18px;
+	margin: 10px 0px 0px 20px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.content .login form button {
+	width: 230px;
+	padding: 10px;
+	font-size: 18px;
+	margin: 30px 0px 0px 30px;
+	background: blue;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+#info {
+	font-size: 18px;
+	width: 100%;
+	display: block;
+	padding-left: 20px;
+}
+
+.login .span1 {
+	font-size: 20px;
+	color: #fff;
+}
+
+.login .span3,.login .span2 {
+	display: inline-block;
+	width: 80px;
+	font-size: 20px;
+	margin-left: 20px;
+	color: #fff;
+}
+
+.login .span3 {
+	letter-spacing: 5px;
+}
+
+.login .span2 {
+	letter-spacing: 12px;
+}
+
+.content .login .jzzh {
+	margin-left: 134px;
+	width: 20px;
+	height: 19px;
+	margin-top: 30px;
+	position: relative;
+	top: 3px;
+}
+
+.login .span4,.login .span5 {
+	font-size: 18px;
+	color: #fff;
+}
+
+.login .span5 a {
+	margin-left: 30px;
+	color: blue;
+}
