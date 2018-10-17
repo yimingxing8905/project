@@ -39,11 +39,14 @@
 	background: #fff;
 	display: inline-block;
 	height: 300px;
-	margin: 5px 2px;
+	margin: 2px 2px;
 	overflow: hidden;
-	width: 232px;
+    width: 230px;
+    border: 1px solid transparent;
 }
-
+.main .list-item:hover{
+    border: 1px solid #ff7101;
+}
 .main {
 	background: #f5f5f5;
 	width: 100%;

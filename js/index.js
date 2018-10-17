@@ -66,7 +66,7 @@ for (var k = 0; k < aLi_num.length; k++) {
     aLi_num[k].onmouseenter = function () {
         clearInterval(run);
     }
-    aLi_num[k].onclick = function () {
+    aLi_num[k].onmouseover = function () {
         aLi_num[i].className = '';
         aLi[i].className = '';
         i = this.index;

@@ -132,11 +132,23 @@
 .product .productBom .product_con ul li {
 	float: left;
 	width: 230px;
-	height: 290px;
+	height: 287px;
 	background: white;
-	border-right: 1px solid #efefef;
-	border-top: 1px solid #efefef;
-	text-align: center;
+    text-align: center;
+    border: 1px solid #efefef;
+}
+
+.product .productBom .product_con ul li:hover {
+    border: 1px solid #ff7101;
+}
+
+.product .productBom .product_con ul li:nth-child(2),.product .productBom .product_con ul li:nth-child(5) {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.product .productBom .product_con ul li:nth-child(4),.product .productBom .product_con ul li:nth-child(5),.product .productBom .product_con ul li:nth-child(6) {
+    margin-top: 4px;
 }
 
 .product .productBom .product_con ul li img {
@@ -203,10 +215,12 @@ p:last-of-type {
 .floors ul li {
 	width: 100px;
 	height: 30px;
-	;color: #fff;
+	color: #fff;
 	text-align: center;
 	line-height: 30px;
 	cursor: pointer;
 	border-bottom: #000;
 }
-
+.floors ul li:hover{
+    color: #ff7101!important;
+}
