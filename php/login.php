@@ -8,6 +8,5 @@
 		echo 'y';
 	}else{
 		echo 'n';
-    }
-    
+    } 
 ?>
