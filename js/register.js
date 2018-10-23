@@ -97,17 +97,13 @@ $(function () {
     //show的拖拽
     $('.login').mousedown(function (e) {
         console.log(1);
-        //添加鼠标箭头
         $(this).css('cursor', 'move');
-        //获取鼠标与show不变的距离
         var x = e.pageX - $(this).offset().left;
         var y = e.pageY - $(this).offset().top;
         // console.log(x,y);
 
         //文档的移动事件
         $(document).mousemove(function (ev) {
-            //获取移动的距离=当前鼠标坐标-与show不变的距离
-            console.log(2);
 
             var ll = ev.pageX - x;
             var tt = ev.pageY - y;
@@ -125,8 +121,6 @@ $(function () {
             } else if (tt >= $(document).height() - $('.login').height()) {
                 tt = $(document).height() - $('.login').height()
             }
-
-            //show left top 赋值
             $('.login').css({ left: ll, top: tt });
 
         })
@@ -136,7 +130,6 @@ $(function () {
 
     //取消拖拽
     $(document).mouseup(function () {
-        //取消鼠标箭头
         $('.login').css('cursor', '');
         $(this).off('mousemove');
     })

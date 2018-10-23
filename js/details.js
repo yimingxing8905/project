@@ -162,23 +162,12 @@ $(function () {
 
     //show的拖拽
     $('.contents1').mousedown(function (e) {
-        console.log(1);
-        //添加鼠标箭头
         $(this).css('cursor', 'move');
-        //获取鼠标与show不变的距离
         var x = e.pageX - $(this).offset().left;
         var y = e.pageY - $(this).offset().top;
-        // console.log(x,y);
-
-        //文档的移动事件
         $(document).mousemove(function (ev) {
-            //获取移动的距离=当前鼠标坐标-与show不变的距离
-            console.log(2);
-
             var ll = ev.pageX - x;
             var tt = ev.pageY - y;
-            console.log(ll, tt);
-
             //判断边界
             if (ll <= 0) {
                 ll = 0
@@ -191,8 +180,6 @@ $(function () {
             } else if (tt >= $(document).height() - $('.contents1').height()) {
                 tt = $(document).height() - $('.contents1').height()
             }
-
-            //show left top 赋值
             $('.contents1').css({ left: ll, top: tt });
 
         })
